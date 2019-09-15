@@ -3,9 +3,7 @@ class CreatePatients < ActiveRecord::Migration[5.2]
     create_table :patients do |t|
     	t.string :name
     	t.integer :healthcardnumber
-    	t.string :apptime
-
-
+    	t.datetime :apptime
       t.timestamps
     end
   end

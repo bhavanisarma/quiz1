@@ -1,0 +1,13 @@
+<br />
+<div class="booyah-box col-10 offset-1">
+<h1>Book an Appointment</h1>
+<%= simple_form_for @patient do |f| %>
+	<%= f.input :name %>
+	<%= f.input :healthcardnumber %>
+	<%= f.input :apptime %>
+
+	<br />
+	<%= f.submit 'create', class: 'btn btn-primary' %>
+	<br /><br /><br />
+	<% end %>
+</div>

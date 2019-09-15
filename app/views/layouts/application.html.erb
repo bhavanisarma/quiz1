@@ -32,15 +32,15 @@
             <a class="nav-link" href="#">Contact us </a>
           </li>
         
-             <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Book an Appointment</button>
+             
+             <%= link_to 'Book an Appointment', new_patient_path, class: 'btn btn-outline-success my-2 my-sm-0' %>
        
           </ul>
-          
-       
 
       </div>
     
       </nav>
+    
     
     <%= yield %>
   </body>
